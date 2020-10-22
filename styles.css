@@ -1,0 +1,135 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'GothamPro', sans-serif;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.h-100{
+    height: 100%;
+}
+.float-l{
+    float: left;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.h-40{
+    height: 40%;
+}
+.text-center{
+    text-align: center;
+}
+.color-w{
+    color: white;
+}
+
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    position: fixed;
+    background: rgba(19, 39, 38, 0.7);
+}
+
+.head-div{
+    height: 10vh;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+
+.logo img{
+    height: 12vh;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.menu ul{
+    width: 100%;
+    height: 50%;
+    list-style: none;
+    text-align: center;
+}   
+.menu li{
+    display: inline-block; 
+    width: 20%;
+
+}
+
+.menu a{
+    display: inline-block;
+    padding: 3%;
+    width: 70%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 450;
+    border: 2px solid white;
+    border-radius: 25px ;
+    background: rgba(88, 80, 80, 0.5);
+
+}
+
+.menu a:hover{
+    background: white;
+    color: rgba(0, 0, 0, 0.727);
+}
+
+
+
+.social-networks{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+
+.social-networks a{
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+}
+
+.social-networks a img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.main{
+    background-image: url(images/background.jpg);
+    height: 90vh;
+    background-size: cover;
+    font-size: 2.5em;
+    padding-top: 15%;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+
+
+
+
+.test{
+    height: 90vh;
+    background: white;
+}
